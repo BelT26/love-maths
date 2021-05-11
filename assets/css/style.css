@@ -111,6 +111,14 @@ body {
     transition: all 0.5s;
 }
 
+.btn--big::after{
+    content: attr(data-type);
+    font-size: 1rem;
+    color: #445361;
+    position: relative;
+    left: -0.5em;
+}
+
 .btn--blue {
     border-color: blue;
     color: blue;
@@ -184,11 +192,8 @@ body {
     }
 
     .btn--big::after {
-        font-size: 1rem;
-        color: #445361;
-        left: -0.5rem;
-        content: attr(data-type);
-        position: relative;
+        font-size: 0.6rem;
+        left: -0.7rem;
     }
 
     .question-area {
@@ -245,3 +250,4 @@ body {
     }
 
 }
+© 2021 GitHub, Inc.
